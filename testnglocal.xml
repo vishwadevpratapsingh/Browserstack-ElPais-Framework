@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Local El Pais Execution">
+    <test name="Local-Chrome">
+        <parameter name="browserName" value="Chrome"/>
+        <classes>
+            <class name="tests.ElPaisScraperTest"/>
+        </classes>
+    </test>
+</suite>

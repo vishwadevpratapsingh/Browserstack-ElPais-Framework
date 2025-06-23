@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [BrowserStack Parallel Execution]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="iPhone15(failed)">
+    <parameter name="os" value=""/>
+    <parameter name="osVersion" value="16"/>
+    <parameter name="realMobile" value="true"/>
+    <parameter name="browserName" value="Safari"/>
+    <parameter name="deviceName" value="iPhone 15"/>
+    <classes>
+      <class name="tests.ElPaisScraperTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="analyzeTitles"/>
+          <include name="runScraperTest"/>
+        </methods>
+      </class> <!-- tests.ElPaisScraperTest -->
+    </classes>
+  </test> <!-- iPhone15(failed) -->
+</suite> <!-- Failed suite [BrowserStack Parallel Execution] -->

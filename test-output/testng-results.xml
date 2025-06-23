@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-23T11:45:24 IST" name="BrowserStack Parallel Execution" finished-at="2025-06-23T11:48:32 IST" duration-ms="188515">
+    <groups>
+    </groups>
+    <test started-at="2025-06-23T11:45:24 IST" name="iPhone15" finished-at="2025-06-23T11:47:57 IST" duration-ms="153143">
+      <class name="tests.ElPaisScraperTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ElPaisScraperTest@2638011]" started-at="2025-06-23T11:45:24 IST" name="setup" finished-at="2025-06-23T11:45:41 IST" duration-ms="17661" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iPhone 15]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="runScraperTest()[pri:0, instance:tests.ElPaisScraperTest@2638011]" started-at="2025-06-23T11:45:41 IST" name="runScraperTest" finished-at="2025-06-23T11:47:56 IST" duration-ms="134100" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[No opinion articles found.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: No opinion articles found.
+at tests.ElPaisScraperTest.runScraperTest(ElPaisScraperTest.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScraperTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ElPaisScraperTest@2638011]" started-at="2025-06-23T11:47:56 IST" name="tearDown" finished-at="2025-06-23T11:47:57 IST" duration-ms="1342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ElPaisScraperTest -->
+    </test> <!-- iPhone15 -->
+    <test started-at="2025-06-23T11:47:57 IST" name="Final-Word-Frequency-Report" finished-at="2025-06-23T11:47:57 IST" duration-ms="0">
+      <class name="tests.ElPaisScraperTest">
+        <test-method is-config="true" signature="analyzeTitles()[pri:0, instance:tests.ElPaisScraperTest@2638011]" started-at="2025-06-23T11:48:32 IST" name="analyzeTitles" finished-at="2025-06-23T11:48:32 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- analyzeTitles -->
+      </class> <!-- tests.ElPaisScraperTest -->
+      <class name="tests.FinalReportRunner">
+        <test-method is-config="true" signature="analyzeTitles()[pri:0, instance:tests.FinalReportRunner@548e6d58]" started-at="2025-06-23T11:48:32 IST" name="analyzeTitles" finished-at="2025-06-23T11:48:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- analyzeTitles -->
+      </class> <!-- tests.FinalReportRunner -->
+    </test> <!-- Final-Word-Frequency-Report -->
+    <test started-at="2025-06-23T11:45:24 IST" name="Safari-Mac" finished-at="2025-06-23T11:47:57 IST" duration-ms="153259">
+      <class name="tests.ElPaisScraperTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ElPaisScraperTest@3c0be339]" started-at="2025-06-23T11:45:24 IST" name="setup" finished-at="2025-06-23T11:45:31 IST" duration-ms="7509" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Monterey]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="runScraperTest()[pri:0, instance:tests.ElPaisScraperTest@3c0be339]" started-at="2025-06-23T11:45:31 IST" name="runScraperTest" finished-at="2025-06-23T11:47:55 IST" duration-ms="144092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScraperTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ElPaisScraperTest@3c0be339]" started-at="2025-06-23T11:47:55 IST" name="tearDown" finished-at="2025-06-23T11:47:57 IST" duration-ms="1618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ElPaisScraperTest -->
+    </test> <!-- Safari-Mac -->
+    <test started-at="2025-06-23T11:45:24 IST" name="Firefox-Windows" finished-at="2025-06-23T11:48:00 IST" duration-ms="155978">
+      <class name="tests.ElPaisScraperTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ElPaisScraperTest@7b02881e]" started-at="2025-06-23T11:45:24 IST" name="setup" finished-at="2025-06-23T11:45:42 IST" duration-ms="17951" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="runScraperTest()[pri:0, instance:tests.ElPaisScraperTest@7b02881e]" started-at="2025-06-23T11:45:42 IST" name="runScraperTest" finished-at="2025-06-23T11:47:58 IST" duration-ms="136619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScraperTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ElPaisScraperTest@7b02881e]" started-at="2025-06-23T11:47:58 IST" name="tearDown" finished-at="2025-06-23T11:48:00 IST" duration-ms="1370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ElPaisScraperTest -->
+    </test> <!-- Firefox-Windows -->
+    <test started-at="2025-06-23T11:45:24 IST" name="Chrome-Windows" finished-at="2025-06-23T11:48:15 IST" duration-ms="171101">
+      <class name="tests.ElPaisScraperTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ElPaisScraperTest@6913c1fb]" started-at="2025-06-23T11:45:24 IST" name="setup" finished-at="2025-06-23T11:45:31 IST" duration-ms="7053" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="runScraperTest()[pri:0, instance:tests.ElPaisScraperTest@6913c1fb]" started-at="2025-06-23T11:45:31 IST" name="runScraperTest" finished-at="2025-06-23T11:48:13 IST" duration-ms="162446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScraperTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ElPaisScraperTest@6913c1fb]" started-at="2025-06-23T11:48:13 IST" name="tearDown" finished-at="2025-06-23T11:48:15 IST" duration-ms="1564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ElPaisScraperTest -->
+    </test> <!-- Chrome-Windows -->
+    <test started-at="2025-06-23T11:45:24 IST" name="Android-Pixel" finished-at="2025-06-23T11:48:32 IST" duration-ms="188515">
+      <class name="tests.ElPaisScraperTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ElPaisScraperTest@6e509ffa]" started-at="2025-06-23T11:45:24 IST" name="setup" finished-at="2025-06-23T11:45:41 IST" duration-ms="17605" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[13.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Google Pixel 7]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="runScraperTest()[pri:0, instance:tests.ElPaisScraperTest@6e509ffa]" started-at="2025-06-23T11:45:41 IST" name="runScraperTest" finished-at="2025-06-23T11:48:31 IST" duration-ms="169424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScraperTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ElPaisScraperTest@6e509ffa]" started-at="2025-06-23T11:48:31 IST" name="tearDown" finished-at="2025-06-23T11:48:32 IST" duration-ms="1449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ElPaisScraperTest -->
+    </test> <!-- Android-Pixel -->
+  </suite> <!-- BrowserStack Parallel Execution -->
+</testng-results>
