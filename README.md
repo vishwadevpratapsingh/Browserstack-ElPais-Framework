@@ -61,8 +61,8 @@ BrowserStackSelenium/
 └── pom.xml # Maven dependencies
 
 HOW TO RUN
-1. Clone the repository**  
-2. Install dependencies**  
+1. Clone the repository
+2. Install dependencies  
 3. Set your BrowserStack credentials** in `config.properties`:
 properties | browserstack.username=YOUR_USERNAME | browserstack.accesskey=YOUR_ACCESS_KEY
 4. Right click on the testng-parallel.xml and run as TestNGSuite
